@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.intel.shriprasad_pharmacy.AddItem">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:onClick="imageButtonClicked"
+        android:id="@+id/medicineImageButton"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemName"
+        android:hint="ENTER PHARMACY ITEM NAMES"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemDesc"
+        android:hint="ENTER PHARMACY ITEM DESCRIPTION"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemPrice"
+        android:hint="ENTER PHARMACY ITEM PRICE"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD ITEM TO LIST"
+        android:onClick="addItemButtonClicked"/>
+
+
+
+</LinearLayout>
+
+

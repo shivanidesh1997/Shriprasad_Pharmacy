@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p"
+    android:orientation="vertical"
+    tools:context="com.example.intel.shriprasad_pharmacy.Septilon">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity: 18mg"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price: Rs.250"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"/>
+    <Button
+        android:onClick="placeButtonClicked"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Place Order"/>
+
+
+</LinearLayout>

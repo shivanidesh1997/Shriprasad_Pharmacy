@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "777570694741",
+    "firebase_url": "https://shriprasadpharmacy.firebaseio.com",
+    "project_id": "shriprasadpharmacy",
+    "storage_bucket": "shriprasadpharmacy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777570694741:android:06cfbde9db391f0e",
+        "android_client_info": {
+          "package_name": "com.example.intel.shriprasad_pharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777570694741-5k31r76g89s5bunc56pcm7lbunkk3rd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intel.shriprasad_pharmacy",
+            "certificate_hash": "8994e38d1004bfb13b8bcccc54352fbc66523592"
+          }
+        },
+        {
+          "client_id": "777570694741-3cspsgparuhcsu71rj5oo49snamh0f6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrdGcEys0nAD2MizCfbhiX1GPEGcQ0hM0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777570694741-3cspsgparuhcsu71rj5oo49snamh0f6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

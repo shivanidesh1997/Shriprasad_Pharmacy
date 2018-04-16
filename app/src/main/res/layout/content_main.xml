@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.intel.shriprasad_pharmacy.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Welcome to Shriprasad Pharmacy Wholesale Salers"
+        android:textSize="43dp"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD PRESCRIPTION"
+        android:onClick="addPharmacyItemButtonClicked"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN/SIGN UP"
+        android:onClick="signInSignUpButtonClicked"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE MEDICINE TYPE"
+        android:onClick="typeButtonClicked"/>
+
+</LinearLayout>
